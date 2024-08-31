@@ -1,0 +1,16 @@
+.mainLayoutMainContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.mainLeft {
+    width: 20%;
+    border-right: 2px solid rgb(199, 199, 199);
+    padding-right: 1rem;
+}
+
+.mainRight {
+    width: 75%;
+    padding-left: 1rem;
+}

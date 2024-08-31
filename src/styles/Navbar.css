@@ -1,0 +1,21 @@
+.navbarMain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbarMain a {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+.navbarMain a.active, .navbarMain a:hover {
+    background-color: green;
+    color: white;
+}
